@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maaainnniifnfr"
+    app:startDestination="@id/oneeejgijgitjitgFragment">
+
+    <fragment
+        android:id="@+id/oneeejgijgitjitgFragment"
+        android:name="com.naturalmotion.csrclassic.OneeejgijgitjitgFragment"
+        android:label="fragment_oneeejgijgitjitg"
+        tools:layout="@layout/fragment_oneeejgijgitjitg" >
+        <action
+            android:id="@+id/action_oneeejgijgitjitgFragment_to_tvooyohoyohykhyFragment"
+            app:destination="@id/tvooyohoyohykhyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvooyohoyohykhyFragment"
+        android:name="com.naturalmotion.csrclassic.TvooyohoyohykhyFragment"
+        android:label="fragment_tvooyohoyohykhy"
+        tools:layout="@layout/fragment_tvooyohoyohykhy" >
+        <action
+            android:id="@+id/action_tvooyohoyohykhyFragment_to_thrfreeeeffeFragment"
+            app:destination="@id/thrfreeeeffeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thrfreeeeffeFragment"
+        android:name="com.naturalmotion.csrclassic.ThrfreeeeffeFragment"
+        android:label="fragment_thrfreeeeffe"
+        tools:layout="@layout/fragment_thrfreeeeffe" >
+        <action
+            android:id="@+id/action_thrfreeeeffeFragment_to_foooorrurututuFragment"
+            app:destination="@id/foooorrurututuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foooorrurututuFragment"
+        android:name="com.naturalmotion.csrclassic.FoooorrurututuFragment"
+        android:label="fragment_foooorrurututu"
+        tools:layout="@layout/fragment_foooorrurututu" >
+        <action
+            android:id="@+id/action_foooorrurututuFragment_to_firiirriirrveveveFragment"
+            app:destination="@id/firiirriirrveveveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firiirriirrveveveFragment"
+        android:name="com.naturalmotion.csrclassic.FiriirriirrveveveFragment"
+        android:label="fragment_firiirriirrveveve"
+        tools:layout="@layout/fragment_firiirriirrveveve" />
+</navigation>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaaaamy"
+    app:startDestination="@id/gamamamamama1Fragment">
+
+    <fragment
+        android:id="@+id/gamamamamama1Fragment"
+        android:name="com.naturalmotion.csrclassic.Gamamamamama1Fragment"
+        android:label="fragment_gamamamamama1"
+        tools:layout="@layout/fragment_gamamamamama1" >
+        <action
+            android:id="@+id/action_gamamamamama1Fragment_to_gamamamamam22Fragment"
+            app:destination="@id/gamamamamam22Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamamamamam22Fragment"
+        android:name="com.naturalmotion.csrclassic.Gamamamamam22Fragment"
+        android:label="fragment_gamamamamam22"
+        tools:layout="@layout/fragment_gamamamamam22" >
+        <action
+            android:id="@+id/action_gamamamamam22Fragment_to_gamamamamma33Fragment"
+            app:destination="@id/gamamamamma33Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamamamamma33Fragment"
+        android:name="com.naturalmotion.csrclassic.Gamamamamma33Fragment"
+        android:label="fragment_gamamamamma33"
+        tools:layout="@layout/fragment_gamamamamma33" >
+        <action
+            android:id="@+id/action_gamamamamma33Fragment_to_gamamamamama1Fragment"
+            app:destination="@id/gamamamamama1Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gamamamamama1Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

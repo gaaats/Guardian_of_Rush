@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gamy"
+    android:layout_height="match_parent"
+    tools:context=".Gamamamamma33Fragment">
+
+    <ImageView
+        android:id="@+id/onnnnn1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/el1"
+        app:layout_constraintBottom_toTopOf="@id/gthgtihthgthgthugt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/onnnnn2" />
+
+    <ImageView
+        android:id="@+id/onnnnn2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ddddiam"
+        app:layout_constraintBottom_toTopOf="@id/gthgtihthgthgthugt"
+        app:layout_constraintStart_toEndOf="@id/onnnnn1"
+        app:layout_constraintEnd_toStartOf="@id/onnnnn3"/>
+
+    <ImageView
+        android:id="@+id/onnnnn3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/jj"
+        app:layout_constraintBottom_toTopOf="@id/gthgtihthgthgthugt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/onnnnn2" />
+
+    <ImageView
+        android:id="@+id/gthgtihthgthgthugt"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/character"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/jhiyyhjyjhhyjiyjhiy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:paddingTop="8dp"
+        android:text="creating game..."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:fontFamily="@font/montserrat_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gthgtihthgthgthugt" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hhyhyyjuujuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:textAllCaps="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:fontFamily="@font/montserrat_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/onnnnn2" />
+
+    <ImageView
+        android:id="@+id/onnnnn4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/qq"
+        app:layout_constraintTop_toBottomOf="@id/jhiyyhjyjhhyjiyjhiy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/onnnnn2" />
+
+    <ImageView
+        android:id="@+id/onnnnn5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kk"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/jhiyyhjyjhhyjiyjhiy"
+        app:layout_constraintStart_toEndOf="@id/onnnnn1"
+        app:layout_constraintEnd_toStartOf="@id/onnnnn3"/>
+
+    <ImageView
+        android:id="@+id/onnnnn6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mm"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/jhiyyhjyjhhyjiyjhiy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/onnnnn2" />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
